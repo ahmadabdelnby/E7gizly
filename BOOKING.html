@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+  
+    <link rel="stylesheet" href="BOOKING.css" />
+    <style>
+      #zxx{
+    margin-top: 100px;
+    width: 200px;
+    background-color: #e5e5e5;
+    background-size: contain;
+    color: #080710;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 50000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*.bg
+{
+    background-image: linear-gradient(black , black , green);
+    opacity: 0.7;   
+}*/
+    </style>
+
+    
+  </head>
+  <body style=" background-image: linear-gradient(black,black , green)">
+    <div class="container">
+      <h2>Booking</h2>
+      <form>
+        <h4>Book Now</h4>
+        <div class="input">
+          <div class="input-box">
+            <input type="text" placeholder="First Name" class="name" required />
+            <ion-icon name="person" class="icon"></ion-icon>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Last Name" class="name" required />
+            <ion-icon name="person" class="icon"></ion-icon>
+          </div>
+        </div>
+
+        <div class="input">
+          <div class="input-box">
+            <input
+              type="email"
+              placeholder="Enter your Email Address"
+              class="name"
+              required
+            />
+            <ion-icon name="mail" class="icon"></ion-icon>
+          </div>
+        </div>
+        <div class="input-box">
+          <h4 style="padding-bottom: 0.5px;">Distenation</h4>
+        </div>
+        <div class="input-box">
+          
+          <div class="input">
+            <div class="input-box">
+              <h4>Form</h4>
+              <input type="text" class="dob">
+            </div>
+            <div class="input-box">
+              <h4>To</h4>
+              <input type="text" class="dob">
+            </div>
+          </div>
+
+        </div>
+        <div class="input">
+          <div class="input-box">
+            <h4>Date of Reservaion</h4>
+            <input type="date" class="dob" style="width: 179px;">
+          </div>
+          <div class="input-box">
+            <h4>Train Number</h4>
+            <div class="input-box">
+              <select name="train number" style="width: 179px;box-shadow: 7px 7px 18px #141415,-7px -7px 10px #252526;">
+                <option></option>
+                <option>80</option>
+                <option>1010</option>
+                <option>1902</option>
+                <option>934</option>
+                <option>3006</option>
+                <option>974</option>
+                <option>980</option>
+                <option>1004</option>
+                <option>2010</option>
+                <option>158</option>
+                <option>982</option>
+                <option>160</option>
+                <option>986</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="input">
+          <div class="input-box">
+              <h4>Payment Method</h4>
+
+              <input type="radio" name="pay" id="credit" class="radio">
+              <label for="credit"><span><ion-icon name="card" class="radio-icon"></ion-icon>Credit Card</span></label>
+
+              <input type="radio" name="pay" id="In-Cash" class="radio">
+              <label for="In-Cash"><span><ion-icon name="cash" class="radio-icon"></ion-icon>In-Cash</span></label>
+          </div>
+        </div>
+
+        <div class="input">
+            <div class="input-box">
+                <input type="tel" placeholder="Card Number" class="name">
+                <ion-icon name="cash-outline" class="icon"></ion-icon>
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="input-box">
+                <input type="number" placeholder="Card CVV" class="name">
+                <ion-icon name="card-outline" class="icon"></ion-icon>
+            </div>
+
+            <div class="input-box">
+                <select>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>Jul</option>
+                    <option>Aug</option>
+                    <option>Sept</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+
+                <select>
+                    <option> 2022</option>
+                    <option> 2023</option>
+                    <option> 2024</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="input-box">
+                <button type="submit">BOOK NOW</button>
+                <br><br>
+                <center>
+                 <a href="./main page.html"  id="zxx">Home</a>
+                </center> <br>
+            </div>
+        </div>
+      </form>
+    </div>
+
+    <!--------------------Ion Icon Link ----------------->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
